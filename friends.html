@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Friends</title>
+  </head>
+
+  <body>
+    <div class="friends page flex">
+      <div class="sidebar bg-fff p-20">
+        <div class="dashboard-name fw-700 fs-20">Hady</div>
+        <div class="pages mt-20">
+          <div class="dashboard">
+            <a href="index.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>dashboard</span>
+            </a>
+          </div>
+          <div class="settings">
+            <a href="settings.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>settings</span>
+            </a>
+          </div>
+          <div class="profile">
+            <a href="profile.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>profile</span>
+            </a>
+          </div>
+          <div class="projects">
+            <a href="projects.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>projects</span>
+            </a>
+          </div>
+          <div class="courses">
+            <a href="courses.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>courses</span>
+            </a>
+          </div>
+          <div class="friends active">
+            <a href="friends.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>friends</span>
+            </a>
+          </div>
+          <div class="files">
+            <a href="files.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>files</span>
+            </a>
+          </div>
+          <div class="plans">
+            <a href="plans.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>plans</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="head bg-fff p-20 flex-between-center">
+          <div class="search pl-20 rad-10px">
+            <input
+              type="search"
+              class="p-15 transition"
+              placeholder="Type A Keyword"
+              onfocus="this.placeholder=''"
+              onblur="this.placeholder='Type A Keyword'"
+            />
+          </div>
+          <div class="icon flex-center-center gap-20">
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <img src="images/avatar.png" alt="" class="rad-50%" />
+          </div>
+        </div>
+        <h1 class="m-20">Friends</h1>
+        <div class="friends-boxs m-20">
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-01.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Ahmed Nasser</div>
+              <div class="jop color-777 fs-15">JavaScript Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>99 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>15 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>25 Articles</span>
+                </div>
+              </div>
+              <div
+                class="left mr-20 fw-700"
+                style="font-size: 60px; color: var(--red-color); opacity: 0.08"
+              >
+                Vip
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 02/10/2021</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-02.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Omar Fathy</div>
+              <div class="jop color-777 fs-15">Cloud Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>30 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>11 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>12 Articles</span>
+                </div>
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 02/8/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-03.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Omar Ahmed</div>
+              <div class="jop color-777 fs-15">Mobile Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>80 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>20 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>18 Articles</span>
+                </div>
+              </div>
+              <div
+                class="left mr-20 fw-700"
+                style="font-size: 60px; color: var(--red-color); opacity: 0.08"
+              >
+                Vip
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 02/6/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-04.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Shady Nabil</div>
+              <div class="jop color-777 fs-15">Back-end Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>70 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>30 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>18 Articles</span>
+                </div>
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 28/6/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-05.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Mohamed Ibrahim</div>
+              <div class="jop color-777 fs-15">Algorithm Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>80 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>30 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>18 Articles</span>
+                </div>
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 28/8/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-03.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Amr Hendawy</div>
+              <div class="jop color-777 fs-15">Back-end Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>70 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>30 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>18 Articles</span>
+                </div>
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 28/6/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-01.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Mahmoud Adel</div>
+              <div class="jop color-777 fs-15">Cloud Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>30 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>11 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>12 Articles</span>
+                </div>
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 02/8/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-05.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Ahmed Abuzaid</div>
+              <div class="jop color-777 fs-15">Front-end Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>80 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>30 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>18 Articles</span>
+                </div>
+              </div>
+              <div
+                class="left mr-20 fw-700"
+                style="font-size: 60px; color: var(--red-color); opacity: 0.08"
+              >
+                Vip
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 28/8/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-01.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Gareeb Elshiekh</div>
+              <div class="jop color-777 fs-15">JavaScript Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>90 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>15 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>25 Articles</span>
+                </div>
+              </div>
+              <div
+                class="left mr-20 fw-700"
+                style="font-size: 60px; color: var(--red-color); opacity: 0.08"
+              >
+                Vip
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 02/10/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="box rad-10px bg-fff p-relative p-20">
+            <div class="contact flex">
+              <div
+                style="
+                  margin: 0 10px;
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+                class="tele-ico rad-50 transition"
+              >
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div
+                class="massage-ico rad-50 transition"
+                style="
+                  width: 35px;
+                  height: 35px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div
+              class="friend-prof flex-center-center"
+              style="flex-direction: column"
+            >
+              <img
+                src="images/friend-04.jpg"
+                class="rad-50"
+                style="width: 100px; height: 100px"
+              />
+              <div class="name fs-17 fw-700 mtb-10">Hady Sapry</div>
+              <div class="jop color-777 fs-15">Front-end Developer</div>
+            </div>
+            <div
+              class="friend-info flex-between-center mtb-20 ptb-10"
+              style="border-top: 1px solid #eee; border-bottom: 1px solid #eee"
+            >
+              <div class="right">
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-face-smile fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>90 Friends</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-solid fa-code-commit fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>15 Projects</span>
+                </div>
+                <div class="mtb-10">
+                  <i
+                    class="fa-regular fa-newspaper fa-fw"
+                    style="margin-right: 7px"
+                  ></i>
+                  <span>25 Articles</span>
+                </div>
+              </div>
+              <div
+                class="left mr-20 fw-700"
+                style="font-size: 60px; color: var(--red-color); opacity: 0.08"
+              >
+                Vip
+              </div>
+            </div>
+            <div class="friend-date-join flex-between-center">
+              <div class="right color-777 fs-15">Joined 02/10/2020</div>
+              <div class="left">
+                <a
+                  href="profile.html"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--blue-alt-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                  "
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    background: var(--red-color);
+                    padding: 5px;
+                    border-radius: 5px;
+                  "
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

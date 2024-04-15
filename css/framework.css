@@ -1,0 +1,334 @@
+/* colors & background  */
+
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-fff {
+  background-color: #fff;
+}
+
+.color-777 {
+  color: #777;
+}
+
+.c-grey {
+  color: gray;
+}
+
+.color-fff {
+  color: white;
+}
+.color-ccc {
+  color: #ccc;
+}
+/* colors & background  */
+
+/* margin & padding  */
+.m-0 {
+  margin: 0;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.mtb-10 {
+  margin: 10px 0;
+}
+.mtb-20 {
+  margin: 20px 0;
+}
+.mtb-15 {
+  margin: 15px 0;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.ptb-20 {
+  padding: 20px 0;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.ptb-10 {
+  padding: 10px 0;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.ptb-15 {
+  padding: 15px 0;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+/* margin & padding  */
+
+/* border  */
+.rad-50 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.rad-5px {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.rad-10px {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* border  */
+
+/* flex & grid */
+.flex {
+  display: flex;
+}
+.flex-start-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-end-center {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-center-end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-around-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-evenly-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-between-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.gap-100 {
+  gap: 100px;
+}
+.gap-50 {
+  gap: 50px;
+}
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.grid {
+  display: grid;
+}
+
+/* flex & grid */
+
+/* font  */
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+/* font  */
+/* transition  */
+.transition {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+/* transition  */
+/* position */
+.p-relative {
+  position: relative;
+}
+
+.text-c {
+  text-align: center;
+}
+
+.align-cl {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.align-ct {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.align-cc {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+/* position */

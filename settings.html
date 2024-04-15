@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Settings</title>
+  </head>
+
+  <body>
+    <div class="page flex settings">
+      <div class="sidebar bg-fff p-20">
+        <div class="dashboard-name fw-700 fs-20">Hady</div>
+        <div class="pages mt-20">
+          <div class="dashboard">
+            <a href="index.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>dashboard</span>
+            </a>
+          </div>
+          <div class="settings active">
+            <a href="settings.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>settings</span>
+            </a>
+          </div>
+          <div class="profile">
+            <a href="profile.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>profile</span>
+            </a>
+          </div>
+          <div class="projects">
+            <a href="projects.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>projects</span>
+            </a>
+          </div>
+          <div class="courses">
+            <a href="courses.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>courses</span>
+            </a>
+          </div>
+          <div class="friends">
+            <a href="friends.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>friends</span>
+            </a>
+          </div>
+          <div class="files">
+            <a href="files.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>files</span>
+            </a>
+          </div>
+          <div class="plans">
+            <a href="plans.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>plans</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="head bg-fff p-20 flex-between-center">
+          <div class="search pl-20 rad-10px">
+            <input
+              type="search"
+              class="p-15 transition"
+              placeholder="Type A Keyword"
+              onfocus="this.placeholder=''"
+              onblur="this.placeholder='Type A Keyword'"
+            />
+          </div>
+          <div class="icon flex-center-center gap-20">
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <img src="images/avatar.png" alt="" class="rad-50%" />
+          </div>
+        </div>
+        <h1 class="m-20">Settings</h1>
+        <div class="container m-20">
+          <div class="site-control rad-10px bg-fff p-relative p-20">
+            <h2 class="fs-30 m-0" style="margin-bottom: 20px">Site Control</h2>
+            <p class="fs-15 color-777 m-0">
+              Control The Website If There Is Maintenance
+            </p>
+            <div class="flex-between-center">
+              <div class="left">
+                <h4 class="fw-400 fs-17 mb-10">Website Control</h4>
+                <p class="fs-13 color-777">
+                  Open/Close Website And Type The Reason
+                </p>
+              </div>
+              <div class="right">
+                <label>
+                  <input type="checkbox" class="toggle-check" checked />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+            </div>
+            <textarea
+              style="
+                resize: none;
+                border: 1px solid #eee;
+                width: 94%;
+                height: 100px;
+                outline: none;
+              "
+              class="rad-10px p-15"
+              placeholder="Close Massage Content"
+            ></textarea>
+          </div>
+          <div class="general-info rad-10px bg-fff p-relative p-20">
+            <h2 class="fs-30 m-0" style="margin-bottom: 20px">General Info</h2>
+            <p class="fs-15 color-777 m-0">
+              General Information About Your Account
+            </p>
+            <p class="label color-777 fs-17 m-0 mt-20" style="margin-left: 2px">
+              First Name
+            </p>
+            <input
+              type="text"
+              style="
+                border: 1px solid #eee;
+                width: 98%;
+                height: 20px;
+                outline: none;
+              "
+              placeholder="First Name"
+              class="mtb-10 rad-5px p-10"
+            />
+            <p class="label color-777 fs-17 m-0" style="margin-left: 3px">
+              Last Name
+            </p>
+            <input
+              type="text"
+              style="
+                border: 1px solid #eee;
+                width: 98%;
+                height: 20px;
+                outline: none;
+              "
+              placeholder="Last Name"
+              class="mtb-10 rad-5px p-10"
+            />
+            <p class="label color-777 fs-17 m-0" style="margin-left: 3px">
+              Email
+            </p>
+            <div class="email flex-between-center">
+              <input
+                type="text"
+                style="
+                  border: 1px solid #eee;
+                  width: 87%;
+                  height: 20px;
+                  outline: none;
+                  background-color: #f0f4f8;
+                  cursor: no-drop;
+                "
+                placeholder="hadysapry@gmail.com"
+                class="mtb-10 rad-5px p-10"
+                readonly
+              />
+              <p
+                class="fs-17"
+                style="color: var(--blue-color); cursor: pointer"
+              >
+                Change
+              </p>
+            </div>
+          </div>
+          <div class="security-info rad-10px bg-fff p-relative p-20">
+            <h2 class="fs-30 m-0" style="margin-bottom: 20px">Security Info</h2>
+            <p class="fs-15 color-777 m-0">
+                Security Information About Your Account
+            </p>
+            <div class="contect mt-15">
+                <div class="password flex-between-center pb-15" style="border-bottom: 1px solid #ccc;">
+                    <div class="right">
+                        <p class="heading fs-17">Password</p>
+                        <p class="info color-777">Last Change On 25/10/2021</p>
+                    </div>
+                    <div class="left p-10 rad-10px" style="color: white; background-color: var(--blue-color); cursor: pointer;">Change</div>
+                </div>
+                <div class="verify flex-between-center pb-15" style="border-bottom: 1px solid #ccc;">
+                    <div class="right">
+                        <p class="heading fs-17">Two-Factor Authentication</p>
+                        <p class="info color-777">Enable/Disable The Feature</p>
+                    </div>
+                    <div class="left">
+                        <label>
+                            <input type="checkbox" class="toggle-check" checked>
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="devices flex-between-center">
+                    <div class="right">
+                        <p class="heading fs-17">Devices</p>
+                        <p class="info color-777">Check The Login Devices List</p>
+                    </div>
+                    <div class="left p-10 rad-10px" style="background-color: #eee">Devices</div>
+                </div>
+            </div>
+        </div>
+        <div class="social-info rad-10px bg-fff p-relative p-20">
+            <h2 class="fs-30 m-0" style="margin-bottom: 20px">Social Info</h2>
+            <p class="fs-15 color-777 m-0">
+                Social Media Information
+            </p>
+            <div class="content mt-15">
+                <div class="box rad-10px flex" style="background-color: #f0f4f8; border: 1px solid #ccc;">
+                    <i class="fa-brands fa-twitter transition"></i>
+                    <input class="p-15" type="text" placeholder="Twitter Username" style="width: 100%; outline: none; background-color: transparent; border: none;">
+                </div>
+                <div class="box rad-10px flex mtb-15" style="background-color: #f0f4f8; border: 1px solid #ccc;">
+                  <i class="fa-brands fa-facebook transition"></i>
+                  <input class="p-15" type="text" placeholder="Twitter Username" style="width: 100%; outline: none; background-color: transparent; border: none;">
+                </div>
+                <div class="box rad-10px flex mtb-15" style="background-color: #f0f4f8; border: 1px solid #ccc;">
+                  <i class="fa-brands fa-linkedin transition"></i>
+                  <input class="p-15" type="text" placeholder="Twitter Username" style="width: 100%; outline: none; background-color: transparent; border: none;">
+                </div>
+                <div class="box rad-10px flex" style="background-color: #f0f4f8; border: 1px solid #ccc;">
+                  <i class="fa-brands fa-youtube transition"></i>
+                  <input class="p-15" type="text" placeholder="Twitter Username" style="width: 100%; outline: none; background-color: transparent; border: none;">
+                </div>
+            </div>
+        </div>
+        <div class="widgets-control rad-10px bg-fff p-relative p-20">
+          <h2 class="fs-30 m-0" style="margin-bottom: 20px">Widgets Control</h2>
+          <p class="fs-15 color-777 m-0">
+            Show/Hide Widgets
+          </p>
+          <div class="content mt-15">
+            <div class="box flex gap-10 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="checkbox" style="width: 19px; height: 19px;" id="check-1" checked >
+              <label class="chek-info" for="check-1">Quick Draft</label>
+            </div>
+            <div class="box flex gap-10 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="checkbox" style="width: 19px; height: 19px;" id="check-2" checked>
+              <label class="chek-info" for="check-2">Yearly Targets</label>
+            </div>
+            <div class="box flex gap-10 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="checkbox" style="width: 19px; height: 19px;" id="check-3" checked>
+              <label class="chek-info" for="check-3">Tickets Statistics</label>
+            </div>
+            <div class="box flex gap-10 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="checkbox" style="width: 19px; height: 19px;" id="check-4" checked>
+              <label class="chek-info" for="check-4">Latest News</label>
+            </div>
+            <div class="box flex gap-10 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="checkbox" style="width: 19px; height: 19px;" id="check-5">
+              <label class="chek-info" for="check-5">Latest Tasks</label>
+            </div>
+            <div class="box flex gap-10 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="checkbox" style="width: 19px; height: 19px;" id="check-6" checked>
+              <label class="chek-info" for="check-6">Top Search Items</label>
+            </div>
+          </div>
+        </div>
+        <div class="backup-manager rad-10px bg-fff p-relative p-20">
+          <h2 class="fs-30 m-0" style="margin-bottom: 20px">Backup Manager</h2>
+          <p class="fs-15 color-777 m-0">
+            Control Backup Time And Location
+          </p>
+          <div class="content">
+            <div class="box flex gap-20 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="radio" id="radio-1" name="radio" checked>
+              <label for="radio-1">Daily</label>
+            </div>
+            <div class="box flex gap-20 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="radio" id="radio-2" name="radio">
+              <label for="radio-2">Weekly</label>
+            </div>
+            <div class="box flex gap-20 mtb-15" style="align-items: center; font-size: 19px;">
+              <input type="radio" id="radio-3" name="radio">
+              <label for="radio-3">Monthly</label>
+            </div>
+            <div class="servers flex-evenly-center pt-20" style="margin-top: 30px; border-top: 1px solid #ccc; align-items: center;">
+              <div class="box">
+                <input type="radio" id="rad-1" name="rad">
+                <label for="rad-1" class="flex" style="align-items: center; justify-content: center; flex-direction: column; width: 165px; height: 70px; padding: 10px 0; border-radius: 5px; cursor: pointer;">
+                  <i class="fa-solid fa-server mb-10"></i>
+                  Megaman
+                </label>
+              </div>
+              <div class="box">
+                <input type="radio" id="rad-2" name="rad" checked>
+                <label for="rad-2" class="flex" style="align-items: center; justify-content: center; flex-direction: column; width: 165px; height: 70px; padding: 10px 0; border-radius: 5px; cursor: pointer;">
+                  <i class="fa-solid fa-server mb-10"></i>
+                  Mando
+                </label>
+              </div>
+              <div class="box">
+                <input type="radio" id="rad-3" name="rad">
+                <label for="rad-3" class="flex" style="align-items: center; justify-content: center; flex-direction: column; width: 165px; height: 70px; padding: 10px 0; border-radius: 5px; cursor: pointer;">
+                  <i class="fa-solid fa-server mb-10"></i>
+                  Hady
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

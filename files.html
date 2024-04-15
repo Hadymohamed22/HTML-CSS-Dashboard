@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Files</title>
+  </head>
+
+  <body>
+    <div class="files page flex">
+      <div class="sidebar bg-fff p-20">
+        <div class="dashboard-name fw-700 fs-20">Hady</div>
+        <div class="pages mt-20">
+          <div class="dashboard">
+            <a href="index.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>dashboard</span>
+            </a>
+          </div>
+          <div class="settings">
+            <a href="settings.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>settings</span>
+            </a>
+          </div>
+          <div class="profile">
+            <a href="profile.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>profile</span>
+            </a>
+          </div>
+          <div class="projects">
+            <a href="projects.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>projects</span>
+            </a>
+          </div>
+          <div class="courses">
+            <a href="courses.html" class="flex p-15 rad-5px">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>courses</span>
+            </a>
+          </div>
+          <div class="friends">
+            <a href="friends.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>friends</span>
+            </a>
+          </div>
+          <div class="files active">
+            <a href="files.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>files</span>
+            </a>
+          </div>
+          <div class="plans">
+            <a href="plans.html" class="flex p-15 rad-5px">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>plans</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="head bg-fff p-20 flex-between-center">
+          <div class="search pl-20 rad-10px">
+            <input
+              type="search"
+              class="p-15 transition"
+              placeholder="Type A Keyword"
+              onfocus="this.placeholder=''"
+              onblur="this.placeholder='Type A Keyword'"
+            />
+          </div>
+          <div class="icon flex-center-center gap-20">
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <img src="images/avatar.png" alt="" class="rad-50%" />
+          </div>
+        </div>
+        <h1 class="m-20">Files</h1>
+        <div class="flex container">
+          <div class="files-boxs m-20" style="flex-grow: 1">
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/pdf.svg" class="transition" />
+                <div class="file-name fs-20">My-file.pdf</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Hady</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">5.5MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/avi.svg" class="transition" />
+                <div class="file-name fs-20">My-file.avi</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Admin</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">16/5/2021</div>
+                <div class="size">12.5MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/eps.svg" class="transition" />
+                <div class="file-name fs-20">My-file.eps</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Uploader</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">16/5/2021</div>
+                <div class="size">15.1MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/psd.svg" class="transition" />
+                <div class="file-name fs-20">My-file.psd</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Osama</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">16/5/2021</div>
+                <div class="size">7.1MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/dll.svg" class="transition" />
+                <div class="file-name fs-20">My-file.dll</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Coder</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">16/5/2021</div>
+                <div class="size">2.2MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/png.svg" class="transition" />
+                <div class="file-name fs-20">My-file.png</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Designer</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">1.3MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/psd.svg" class="transition" />
+                <div class="file-name fs-20">My-file.psd</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Hady</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">16/5/2021</div>
+                <div class="size">1.1MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/pdf.svg" class="transition" />
+                <div class="file-name fs-20">My-file.pdf</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Elzero</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">5.5MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/avi.svg" class="transition" />
+                <div class="file-name fs-20">My-file.avi</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Mando</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">3.6MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/zip.svg" class="transition" />
+                <div class="file-name fs-20">My-file.zip</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Mahound</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">16/6/2020</div>
+                <div class="size">6.8MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/dll.svg" class="transition" />
+                <div class="file-name fs-20">My-file.dll</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Ahmed</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">1.9MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/txt.svg" class="transition" />
+                <div class="file-name fs-20">My-file.txt</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Osama</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">5.5MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/sql.svg" class="transition" />
+                <div class="file-name fs-20">My-file.sql</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Hassen</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">9.8MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/pdf.svg" class="transition" />
+                <div class="file-name fs-20">My-file.pdf</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Khaled</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">5.5MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/zip.svg" class="transition" />
+                <div class="file-name fs-20">My-file.zip</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Hady</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">20/6/2022</div>
+                <div class="size">5.5MB</div>
+              </div>
+            </div>
+            <div class="box rad-10px bg-fff p-relative p-10">
+              <i class="fa-solid fa-download color-777 transition"></i>
+              <div
+                class="file flex-center-center gap-20"
+                style="flex-direction: column"
+              >
+                <img src="images/dll.svg" class="transition" />
+                <div class="file-name fs-20">My-file.dll</div>
+              </div>
+              <div class="file-owner color-777 mtb-10 mb-15">Waled</div>
+              <div
+                class="file-info color-777 flex-between-center"
+                style="border-top: 1px solid #eee; padding: 10px 5px"
+              >
+                <div class="date">16/5/2020</div>
+                <div class="size">2.9MB</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="files-static rad-10px bg-fff p-relative p-20"
+            style="height: fit-content"
+          >
+            <h2 style="font-size: 30px">File Statices</h2>
+            <div
+              class="box p-15 flex-between-center rad-10px mtb-10"
+              style="border: 1px solid #eee; align-items: center"
+            >
+              <div class="flex gap-20" style="align-items: center">
+                <div
+                  class="icon flex-center-center"
+                  style="
+                    width: 35px;
+                    height: 35px;
+                    color: var(--blue-color);
+                    background-color: #0077ff67;
+                  "
+                >
+                  <i class="fa-regular fa-file-pdf"></i>
+                </div>
+                <div class="info color-777 fs-13">
+                  PDF Files
+                  <div class="num mt-10">230</div>
+                </div>
+              </div>
+              <div class="color-777">2.5GB</div>
+            </div>
+            <div
+              class="box p-15 flex-between-center rad-10px mtb-10"
+              style="border: 1px solid #eee; align-items: center"
+            >
+              <div class="flex gap-20" style="align-items: center">
+                <div
+                  class="icon flex-center-center"
+                  style="
+                    width: 35px;
+                    height: 35px;
+                    color: var(--green-color);
+                    background-color: #22c55e5d;
+                  "
+                >
+                  <i class="fa-regular fa-images"></i>
+                </div>
+                <div class="info color-777 fs-13">
+                  PDF Files
+                  <div class="num mt-10">230</div>
+                </div>
+              </div>
+              <div class="color-777">2.5GB</div>
+            </div>
+            <div
+              class="box p-15 flex-between-center rad-10px mtb-10"
+              style="border: 1px solid #eee; align-items: center"
+            >
+              <div class="flex gap-20" style="align-items: center">
+                <div
+                  class="icon flex-center-center"
+                  style="
+                    width: 35px;
+                    height: 35px;
+                    color: var(--red-color);
+                    background-color: #f4433655;
+                  "
+                >
+                  <i class="fa-solid fa-file-word"></i>
+                </div>
+                <div class="info color-777 fs-13">
+                  PDF Files
+                  <div class="num mt-10">230</div>
+                </div>
+              </div>
+              <div class="color-777">2.5GB</div>
+            </div>
+            <div
+              class="box p-15 flex-between-center rad-10px mtb-10"
+              style="border: 1px solid #eee; align-items: center"
+            >
+              <div class="flex gap-20" style="align-items: center">
+                <div
+                  class="icon flex-center-center"
+                  style="
+                    width: 35px;
+                    height: 35px;
+                    color: var(--orange-color);
+                    background-color: #f59f0b5c;
+                  "
+                >
+                  <i class="fa-solid fa-file-csv"></i>
+                </div>
+                <div class="info color-777 fs-13">
+                  PDF Files
+                  <div class="num mt-10">230</div>
+                </div>
+              </div>
+              <div class="color-777">2.5GB</div>
+            </div>
+            <div class="upload flex-center-center">
+              <span style="color: white" class="rad-10px transition">
+                <i class="fa-solid fa-angles-up mr-10 transition"></i>
+                upload
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
